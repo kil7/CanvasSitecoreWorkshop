@@ -1,0 +1,52 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Project", "1. Project", "{8CD62DBB-C5D2-4892-917B-8BBCAC2FED0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Feature", "2. Feature", "{EAFE8A0E-740E-463C-A8E2-1838066F654E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Foundation", "3. Foundation", "{32DB0BA6-693A-494E-84AB-C671B25CF0FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Configuration", "0. Configuration", "{82173FDA-769E-41C1-ACE9-9B8B7927B91F}"
+	ProjectSection(SolutionItems) = preProject
+		build.ps1 = build.ps1
+		build.cake = build.cake
+		build.config.cake = build.config.cake
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		always|Any CPU = always|Any CPU
+		always|x64 = always|x64
+		ci|Any CPU = ci|Any CPU
+		ci|x64 = ci|x64
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.always|Any CPU.ActiveCfg = Release|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.always|Any CPU.Build.0 = Release|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.always|x64.ActiveCfg = Release|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.always|x64.Build.0 = Release|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.ci|Any CPU.ActiveCfg = Release|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.ci|Any CPU.Build.0 = Release|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.ci|x64.ActiveCfg = Release|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.ci|x64.Build.0 = Release|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.Debug|x64.Build.0 = Debug|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.Release|x64.ActiveCfg = Release|Any CPU
+		{84599df1-c2d9-4b72-8298-65f189a829b7}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
