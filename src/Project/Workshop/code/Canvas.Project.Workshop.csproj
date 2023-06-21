@@ -46,11 +46,13 @@
         <Compile Include="Templates.cs" />
     </ItemGroup>
     <ItemGroup>
-        <Content Include="Assets\bootstrap.css" />
-        <Content Include="Assets\bootstrap.min.css" />
+        <Content Include="Assets\css\bootstrap.min.css" />
+        <Content Include="Assets\img\sc-logo.png" />
+        <Content Include="Assets\js\bootstrap.min.js" />
         <Content Include="favicon.ico" />
         <None Include="Web.config" />
-        <Content Include="Views\Workshop\Layouts\home.cshtml" />
+        <Content Include="Views\Workshop\Layouts\Contact.cshtml" />
+        <Content Include="Views\Workshop\Layouts\Home.cshtml" />
         <None Include="Web.Debug.config">
             <DependentUpon>Web.config</DependentUpon>
         </None>
@@ -61,10 +63,6 @@
     </ItemGroup>
     <ItemGroup>
         <Folder Include="App_Data" />
-    </ItemGroup>
-    <ItemGroup>
-        <Content Include="Assets\bootstrap.min.css.map" />
-        <Content Include="Assets\bootstrap.css.map" />
     </ItemGroup>
     <ItemGroup>
       <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.4" />

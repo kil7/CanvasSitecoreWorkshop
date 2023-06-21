@@ -18,7 +18,7 @@ public struct Templates {
         public struct Fields {
             public static readonly ID Email = new ID("{C864517C-74BF-412B-9BA3-06EE1CDC5854}");
             public static readonly ID PhoneNumber = new ID("{EC5A1F40-D9B0-464A-93F4-73D1C69DA7D2}");
-            public static readonly ID Address = new ID("{EC5A1F40-D9B0-464A-93F4-73D1C69DA7D2}");
+            public static readonly ID Address = new ID("{95FA8B87-A991-46E2-AD01-06D9D32C0D47}");
         }
     }
 }
