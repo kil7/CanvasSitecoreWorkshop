@@ -13,7 +13,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Configuration", "0. Conf
 		build.ps1 = build.ps1
 		build.cake = build.cake
 		build.config.cake = build.config.cake
+		scripts\Cake\utilities.cake = scripts\Cake\utilities.cake
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workshop", "Workshop", "{9D35E945-A38C-43E3-9663-A8EB909B64BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvas.Project.Workshop", "src/Project/Workshop/code\Canvas.Project.Workshop.csproj", "{EDE3F83A-463D-4463-8716-551AF37D563F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +48,28 @@ Global
 		{84599df1-c2d9-4b72-8298-65f189a829b7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{84599df1-c2d9-4b72-8298-65f189a829b7}.Release|x64.ActiveCfg = Release|Any CPU
 		{84599df1-c2d9-4b72-8298-65f189a829b7}.Release|x64.Build.0 = Release|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.always|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.always|Any CPU.Build.0 = Debug|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.always|x64.ActiveCfg = Debug|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.always|x64.Build.0 = Debug|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.ci|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.ci|Any CPU.Build.0 = Debug|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.ci|x64.ActiveCfg = Debug|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.ci|x64.Build.0 = Debug|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.Debug|x64.Build.0 = Debug|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.Release|x64.ActiveCfg = Release|Any CPU
+		{EDE3F83A-463D-4463-8716-551AF37D563F}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{9D35E945-A38C-43E3-9663-A8EB909B64BC} = {8CD62DBB-C5D2-4892-917B-8BBCAC2FED0C}
+		{EDE3F83A-463D-4463-8716-551AF37D563F} = {9D35E945-A38C-43E3-9663-A8EB909B64BC}
 	EndGlobalSection
 EndGlobal
